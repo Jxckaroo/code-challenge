@@ -43,3 +43,8 @@ Navigate to the following URL to see a simple output of the work.
 ```
 http://localhost:4000/
 ```
+
+## Things to consider in the future
+
+1. Create a MySQL container to store, serve & test live data
+2. Project could expand, I could rework it to be DDD
