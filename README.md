@@ -8,7 +8,7 @@ docker-compose up -d
 Exec in to the docker container
 
 ```
-docker exec -it php-basket-php-fpm-1 /bin/bash
+docker exec -it [PHP_FPM_CONTAINER_NAME] /bin/bash
 ```
 
 Run package manager
@@ -22,7 +22,7 @@ composer install
 Exec in to the docker container
 
 ```
-docker exec -it php-basket-php-fpm-1 /bin/bash
+docker exec -it [PHP_FPM_CONTAINER_NAME] /bin/bash
 ```
 
 Run PHPUnit
