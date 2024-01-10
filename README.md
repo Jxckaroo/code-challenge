@@ -31,7 +31,7 @@ Run PHPUnit
 ./vendor/bin/phpunit
 ```
 
-Can also see code coverage with the following command (atill inside the container)
+Can also see code coverage with the following command (still inside the container)
 ```
 XDEBUG_MODE=coverage ./vendor/bin/phpunit --coverage-text
 ```
